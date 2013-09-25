@@ -21,7 +21,7 @@ From an employee perspective, its all about talent access. If students start ask
 
 So, the simple logic dictates, thats without some system to push applications later and later (i.e., how an implicit bargain/norm between colleges keeps almost all college applications due in Senior year of high school, right around Jan 1.), we are going to see earlier and  earlier internship applications. However, what does this do the process of college? It means that students will spend much of their time career focused, from when they step foot on campus in the fall to they departure in the summer. That however, is a large questions than scoped in this post. 
 
-[1]: Ah, that familiar motivation
-[2]: Or more often, another internship, which that one will lead to a job. 
-[3]: Large organizations often have extra capacity- giving them the ability to hire without knowing the precise task of the hire. If not, they can always rubber room the intern. 
-[4]: Or march. 
+[1]: "Ah, that familiar motivation"
+[2]: "Or more often, another internship, which that one will lead to a job."
+[3]: "Large organizations often have extra capacity- giving them the ability to hire without knowing the precise task of the hire. If not, they can always rubber room the intern. "
+[4]: "Or march."
