@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Hello World"
-date:   2013-08-15 11:16:25
+title:  "Earlier Internships"
+date:   2013-09-24 11:16:25
 categories: intern
 ---
 
-###The End of Summer
+###Or,The End of Summer
 
 I was grabbing lunch with a friend, a rising 2nd year at UChicago in mid september, and heard the craziest thing. Three weeks before he was set to start school, he had already applied for at least three summer internships for the next summer. Mind you, the time he spends as an intern is more than doubled by the lead time that these applications have required. 
 
