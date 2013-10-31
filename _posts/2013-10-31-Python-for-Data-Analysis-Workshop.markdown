@@ -2,13 +2,13 @@
 layout: post
 title:  "Python for Data Analysis - Workshop"
 date:   2013-10-31 11:16:25
-categories: python data
+categories: python 
 ---
 
 Below are the notes/key points from the Workshop I gave to [Hack@UChicago](http://hack.uchicago.edu) on using Python for Data Analysis. Many thanks to all those who helped me put it togehter. The source is avaliable on [Github](http://github.com/hunterowens/python-data-workshop).
 
 
-#Python For Data Analysis
+##Python For Data Analysis
 
 ## Data Structures
 There are two important data structures in Pandas. 
