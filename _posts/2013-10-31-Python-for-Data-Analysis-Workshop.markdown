@@ -39,7 +39,7 @@ df = DataFrame(data)
 There are many different indexs you can set on data frames. 
 
 ## Loading Data
-Pandas makes it super easy to load data. There are build in methods such as `read_csv` & `load`(for pickle files). You can also easily load at dict into a data frame, providing an easy way to interact with JSON REST API's on the Web. How easy? This easy
+Pandas makes it super easy to load data. There are build in methods such as ```read_csv``` & ```load``` (for pickle files). You can also easily load at dict into a data frame, providing an easy way to interact with JSON REST API's on the Web. How easy? This easy
 
 ```
 url = 'http://divvybikes.com/stations/json'
