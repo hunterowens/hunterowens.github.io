@@ -1,0 +1,185 @@
+---
+layout: post
+title:  "Python for Data Analysis - Workshop"
+date:   2013-10-31 11:16:25
+categories: python 
+---
+
+<p>Below are the notes/key points from the Workshop I gave to <a href="http://hack.uchicago.edu">Hack@UChicago</a> on using Python for Data Analysis. Many thanks to all those who helped me put it togehter. The source is avaliable on <a href="http://github.com/hunterowens/python-data-workshop">Github</a>.</p>
+
+<h2>Python For Data Analysis</h2>
+
+<h2>Data Structures</h2>
+
+<p>There are two important data structures in Pandas. </p>
+
+<h3>The Series</h3>
+
+<p>The series is a 'one dimesional array like object containing an array of data (of any Numpy data type) and an associated array of data labels, called an index.</p>
+
+<p>```
+obj = Series([4,5,6,'a string'])</p>
+
+<p>```
+This example is only an array of data. </p>
+
+<p>```
+obj2 = Series([4,5,6,'a string'],index=['a','b','c','d'])</p>
+
+<p>```
+This example has a labeled index.</p>
+
+<p>A series can be though of as a fixed length order dict. Frequently, you will want to take some dictionary an put it into a series. You can also use a series in many functions that take dicts. </p>
+
+<p><code>
+food_trucks = {'La Adelita': 'Mexican', 'King Schnizel':'German','Bridgeport Pasty':'German'}
+food_truck_series = Series(food_trucks)
+</code></p>
+
+<h3>The Dataframe</h3>
+
+<p>The dataframe is a 2-dimesional array- think of it as a spreadsheet. You can use hierachical ordering to achieve multi-dimesional arrays. (We won't be covering that, though)</p>
+
+<p><code>
+data = {'building':['Ryerson','Ryerson','Pick', 'Harper'],
+              'room':[251,276,532,140],
+              'capacity':[153,54,15,96]}
+df = DataFrame(data)
+</code></p>
+
+<p>There are many different indexs you can set on data frames. </p>
+
+<h2>Loading Data</h2>
+
+<p>Pandas makes it super easy to load data. There are build in methods such as <code>read_csv</code> &amp; <code>load</code> (for pickle files). You can also easily load at dict into a data frame, providing an easy way to interact with JSON REST API's on the Web. How easy? This easy</p>
+
+<p>```
+url = 'http://divvybikes.com/stations/json'
+resp = requests.get(url)</p>
+
+<p>data = json.loads(resp.text)
+stations<em>metadata = data['stationBeanList']
+stations</em>dataFrame = DataFrame(stations_metadata)
+<code>
+Or, in one line
+</code>
+r = DataFrame(json.loads((requests.get('http://divvybikes.com/stations/json')).text)['stationBeanList'])
+```</p>
+
+<p>Not Covered in the This Workshop: Loading Data from Databases. However, there are several built in methods for creating dataframes from SQL and NoSQL Databases.</p>
+
+<h2>Cleaning Data</h2>
+
+<ol>
+<li>Get Dataset</li>
+<li>Clean Dataset</li>
+<li>Repeat. </li>
+</ol>
+
+<p>Anyways, one of the first things you need to do when you recieve a Dataset is clean it/validate it. </p>
+
+<p>Pandas provides a set of built in methods for handling missing and erroronous data. Please consult either the documentation for Python for Data Analysis by Wes Mckinney. </p>
+
+<h2>Sorting Data</h2>
+
+<p>One of the first thinks that you might do is sort the data into several different DataFrames. With the Divvy Dataset, we have station id and records at every minute.  </p>
+
+<h2>Merging Data</h2>
+
+<p>Database styles joins are possible with Pandas. You can Join 2 Dataframes, and or a DataFrame+Sequences. There are left, right, and inner joins. Here is a key join of two dataframes. </p>
+
+<p><code>
+mergeset = pd.merge(september_dataframe,ldata,left_on='station_id',right_on='id')
+</code></p>
+
+<p>However, you may also want to concatenate data. For those of you familar with Numpy arrays, Pandas includes the .concat method to allow concatination in the same way. </p>
+
+<h2>Graphing Data</h2>
+
+<p>Pandas integrates well with the standard MatPlotLib graphing libary. Let's say we want to get the average number of bikes in all the stations for each minute. </p>
+
+<p>First, you need to convert the timestamps.2. 
+<code>
+september_dataframe['timestamp'] = september_dataframe['timestamp'].apply(lambda t: pd.to_datetime())
+</code></p>
+
+<p>Then, Group by minute value (i.e. how many minutes have occured since midnight)</p>
+
+<p><code>
+station_monthly_groups = september_dataframe.groupby(september_dataframe['timestamp'].map(lambda t: 60*t.hour + t.minute)
+</code></p>
+
+<p>Take the average of the group</p>
+
+<p><code>
+station_monthly_averages = station_monthly_groups.mean()
+station_monthly_std = station_monthly_groups["bikes"]std(
+</code> </p>
+
+<p>Time readability conversions.</p>
+
+<p><code>
+times = station_monthly_averages.index.map(minute_into_hour)
+times_std = station_monthly_std.index.map(minute_into_hor)
+</code></p>
+
+<p>add to dataframe. </p>
+
+<p><code>
+station_monthly_averages["timestamp"] = times
+station_monthly_averages["bikes_available_std"] = station_monthly_td
+</code></p>
+
+<p>Now, plot</p>
+
+<p><code>
+grid_size = (1,1)
+count = 1
+nb_plots_per_page = 1
+ax = plt.subplot2grid(grid_size, (count % nb_plots_per_page,0))
+t = pd.to_datetime(station_monthly_averages['timestamp'])
+mu1 = station_montly_averages['bikes']
+sigma1 = station_monthly_averages['bikes_available_std']
+ax.plot(t, mu1)
+</code></p>
+
+<h2>Mapping Data</h2>
+
+<p>Pandas/Matplotlib/Basemap can also map data based on a shapefile. Basemap is an extention for matplotlib that utilizes the geos library to map cordinates, lines, etc. </p>
+
+<p>Mac Users can install Geos/Basemap by running <code>brew install geos</code> and then <code>python setup.py build</code> and then <code>python setup.py install</code> in the directory in which they unzipped <a href="http://matplotlib.org/basemap/">Basemap</a>.</p>
+
+<p>To start with map data, you're going to want to have a basic map obj. This is a basic stere projection of Chicago.</p>
+
+<p><code>
+def basic_map(ax=None,lllat=41.75,urlat=42,
+              lllon=-88,urlon=-87.5):
+    ##create polor sterographic Basemap instance
+    m = Basemap(ax=ax, projection='stere',
+                lon_0=(urlon + lllon) / 2,
+                lat_0=(urlat + lllat) / 2,
+                llcrnrlat = lllat, urcrnrlat=urlat,
+                llcrnrlon = lllon, urcrnrlon = urlon,
+                resolution = 'f')
+    m.drawcoastlines()
+    m.drawstates()
+    m.drawcountries()
+    return m
+m = basic_map()
+</code>
+Now, we want to plot each divvy station point on the map. To do this, we iterate over the dataframe and then plot the lat/long.</p>
+
+<p><code>
+for index, row in stations_dataframe.iterrows():
+    x,y = m(row['longitude'], row['latitude'])
+    m.plot(x,y,'k.',alpha=1)
+</code></p>
+
+<p>That's it. (except, we may want to add, say, city of chicago streets.) To do that, we need to load a shape. <a href="http://openstreetmap.org">Open Street Map</a> provides shapes for the state of illinois. Download those and unzip them, and add </p>
+
+<p><code>
+shapefile = ('./data/illinois-latest/illinois-latest')
+m.readshapefile(shapefile, 'roads')
+</code></p>
+
+<p>which will render the streets. </p>
