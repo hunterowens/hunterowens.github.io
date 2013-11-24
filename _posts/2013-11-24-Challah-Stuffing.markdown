@@ -35,4 +35,4 @@ I cannot stress how important the homemade stock is here. So make it, because it
 	5. 3 Bay Leaves
 	6. Salt + Pepper (Whole)
 	
-Place all ingredents in pot. Cover with water. Bring to a simmer for at least 3 hours. Skim foam occasionally. Strain. Can freeze stock for up to 6 months. 
+Place all ingredents in pot. Cover with water. Bring to a simmer for at least 3 hours. Skim foam occasionally. Strain. Can freeze stock for up to 6 months. If you're using the Parmesan cheese for the stuffing, I like to drop the rind into the stock for extra flavor.
