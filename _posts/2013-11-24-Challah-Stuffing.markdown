@@ -23,7 +23,7 @@ Challah Stuffing is awesome.
 ### Steps
 Procure a challah. (or 2, or 3). Cube and leave in plastic/paper bags for a day. Make the stock this day if you haven't allready. 
 
-Next: Saute Onion, Celery, Mushrooms, Carrots & Sausage until soft. Salt/Pepper/Season here also. Place cubed challah, mixture into pan. Add stock until partially soft (the amount of stock you add changes the text. Less for firmer stuffing, more for really moist. Avoid having pools of liquid.). Place in 350 degree oven until crust forms. If you want, top with Parmesan cheese because, well, awesomeness. 
+Next: Saute Onion, Celery, Mushrooms, Carrots & Sausage until soft. Salt/Pepper/Season here also. Place cubed challah, mixture into pan. Add stock until partially soft (the amount of stock you add changes the texture. Less for firmer stuffing, more for really moist. Avoid having pools of liquid.). Place in 350 degree oven until crust forms. If you want, top with Parmesan cheese because, well, awesomeness. 
 
 ### Homemade Stock
 I cannot stress how important the homemade stock is here. So make it, because it makes the dish. 
