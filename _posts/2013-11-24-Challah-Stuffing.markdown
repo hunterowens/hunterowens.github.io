@@ -17,7 +17,7 @@ Challah Stuffing is awesome.
 	4. Celery
 	5. Mushrooms (optional)
 	6. Carrots (optional)
-	7. Sausague (optional)
+	7. Sausage (optional)
 	8. Parmesan Cheese (optional)
 	
 ### Steps
