@@ -15,6 +15,7 @@ The test code loaded each dataset from the respective location into a pandas dat
 
 <script src="https://gist.github.com/hunterowens/8779252.js">var test = "test"</script>
 
+<hr>
 
 ### Results
 
@@ -37,5 +38,7 @@ The test code loaded each dataset from the respective location into a pandas dat
 		<td>15.4198300838</td>
 	</tr>
 </table>
+
+<br>
 
 So, actually, S3 is far faster than loading from an EBS volume. I'll try and run this with and IO optimized volume sometime soon.
