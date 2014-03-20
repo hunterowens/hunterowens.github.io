@@ -8,8 +8,8 @@ title: Your New Jekyll Site
   <p>Sometimes I write papers, mostly for class. They're mostly kinda bad in this humble authors opinion, but sometimes I talk about interesting things.</p>
   <hr>
   <ul class="row6">
-    {% for paper in site.papers %}
-    <li><span><a href="{{ paper.url }}">{{ paper.title }}</a>:{{ paper.abstract}}</li>
+    {% for post in site.papers %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
