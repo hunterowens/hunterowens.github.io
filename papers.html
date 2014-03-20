@@ -1,0 +1,15 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<div class="row-fluid marketing">
+  <h1>Papers</h1>
+  <p>Sometimes I write papers, mostly for class. They're mostly kinda bad in this humble authors opinion, but sometimes I talk about interesting things.</p>
+  <hr>
+  <ul class="row6">
+    {% for paper in site.papers %}
+    <li><span><a href="{{ paper.url }}">{{ paper.title }}</a>:{{ paper.abstract}}</li>
+    {% endfor %}
+  </ul>
+</div>
