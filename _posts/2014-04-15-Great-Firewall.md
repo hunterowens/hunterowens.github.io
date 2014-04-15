@@ -31,6 +31,8 @@ As you can see, the VPN speed are anywhere from 5 to 40 times slower than the Gr
 
 Ya, it's that bad. Essentially, there is not incentive to use any American service because it will be exponentially slower and will cost you. (DigitalOcean setup costs 20$/month, IPVanish 10$/month). Considering WeChat, QQ, and other Chinese services work as well if not better than their American counterparts, it is easy to see why there is very little demand to jump over the firewall. 
 
+*Addendum*: Not to mention that this requires even more work to get up and running on mobile, which is even more important to most Chinese users based on cursory glaces and conversations. 
+
 ## Additional Work
 
 1. My friend Pete spoke about how CS major's at one Chinese university used Google App Engine as a way to get free VPN services. It would be useful to test this option out. 
