@@ -40,7 +40,7 @@ Ya, it's that bad. Essentially, there is not incentive to use any American servi
 
 ## Notes
 
-[All code (to generate charts) and data is avaliable.]()
+[All code (to generate charts) and data is avaliable.](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/hunterowens/hunterowens.github.io/master/notebooks/FirewallCharts.ipynb?create=1)
 
 
 
