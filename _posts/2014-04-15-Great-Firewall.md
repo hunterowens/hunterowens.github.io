@@ -27,7 +27,7 @@ I tested three different VPNs. The first, the University of Chicago's [cVPN](htt
 
 As you can see, the VPN speed are anywhere from 5 to 40 times slower than the Great Firewall connections. And this is running on the fastest internet connection, which required setting up a WiFi bridge. What really kills you, however, in using Twitter, Facebook, Netflix, etc on a day to day basis is ping. 
 
-![pingchart](img/greatfirewall/ping.png)
+![pingchart](/img/greatfirewall/ping.png)
 
 Ya, it's that bad. Essentially, there is not incentive to use any American service because it will be exponentially slower and will cost you. (DigitalOcean setup costs 20$/month, IPVanish 10$/month). 
 
