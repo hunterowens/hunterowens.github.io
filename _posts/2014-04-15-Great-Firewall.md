@@ -29,7 +29,7 @@ As you can see, the VPN speed are anywhere from 5 to 40 times slower than the Gr
 
 ![pingchart](/img/greatfirewall/ping.png)
 
-Ya, it's that bad. Essentially, there is not incentive to use any American service because it will be exponentially slower and will cost you. (DigitalOcean setup costs 20$/month, IPVanish 10$/month). 
+Ya, it's that bad. Essentially, there is not incentive to use any American service because it will be exponentially slower and will cost you. (DigitalOcean setup costs 20$/month, IPVanish 10$/month). Considering WeChat, QQ, and other Chinese services work as well if not better than their American counterparts, it is easy to see why there is very little demand to jump over the firewall. 
 
 ## Additional Work
 
