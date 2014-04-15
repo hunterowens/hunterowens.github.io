@@ -17,7 +17,7 @@ First, one needs to realize what the options to be connected to the web for an a
 
 ![uploadspeed](/img/greatfirewall/upload_spped.png)
 
-*taller is better*
+*The larger the number, the faster the internet connection*
 
 As you can see, the campus wifi is far slower than either of the paid options. However, students do get connection speeds that are capable of streaming, if they are not relying on the campus wifi. Yet, what starts to happen when you connect to a VPN in America?
 
