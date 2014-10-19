@@ -1,0 +1,9 @@
+lang, type, time
+julia,fib,0.069229
+julia,parse_int,0.216129
+julia,mandel,0.418519
+julia,quicksort,0.422881
+julia,pi_sum,22.925340
+julia,rand_mat_stat,25.971044
+julia,rand_mat_mul,95.173173
+julia,printfd,33.325562
