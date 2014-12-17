@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Open Source, Closed Data"
+date:   2014-12-17 10:00:00
+categories: Open-Source
+---
+
 # Open Source, Closed Data
 ==========================
 
