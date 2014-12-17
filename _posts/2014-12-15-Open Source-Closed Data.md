@@ -5,9 +5,6 @@ date:   2014-12-17 10:00:00
 categories: Open-Source
 ---
 
-# Open Source, Closed Data
-==========================
-
 One problem organizations have faced in the past when opening up their data is that, well, the data has to remain closed. For example, data with either [HIPAA](http://www.hhs.gov/ocr/privacy/) or [FERPA](http://www2.ed.gov/ferpa) provisions is pretty much stuck in a closed state. Furthermore, many organizations are reluctant to open up certain datasets. However, all hope is not lost, rather, this article will advance the idea of *Open Source, Closed Data* and present several implementation strategies. 
 
 
