@@ -1,0 +1,9 @@
+s3_id: <%= ENV['S3_HUNTEROWENS_ACCESS_KEY_ID'] %>
+s3_secret: <%= ENV['S3_HUNTEROWENS_SECRET_KEY'] %>
+s3_bucket: www.hunterowens.net
+
+max_age:
+  "public/*": 6000
+  "*": 300
+
+concurrency_level: 100
