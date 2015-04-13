@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fun with PostGIS and Chicago City Data"
-date:   2014-12-17 10:00:00
+date:   2014-04-12 10:00:00
 categories: Open-Source 
 ---
 
