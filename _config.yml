@@ -1,4 +1,4 @@
 name: hunterowens.net
-pygments: true
+highlighter: true
 markdown: kramdown
 
