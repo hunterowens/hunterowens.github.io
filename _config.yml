@@ -1,4 +1,4 @@
 name: hunterowens.net
-highlighter: pygments
+highlighter: rouge 
 markdown: kramdown
 
