@@ -1,4 +1,6 @@
 _site/
 .DS_Store
 *.ipynb_checkpoints/
+.jeykll-cache/
+Gemfile.lock
 notebooks/data
