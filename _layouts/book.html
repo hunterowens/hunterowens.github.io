@@ -1,0 +1,9 @@
+---
+layout: post
+---
+<h2>{{ page.title }}</h2>
+<b>Date Read {{ page.date_read }}</b>, <i>{{ page.isbn }}</i>
+-
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+{{ content }}
