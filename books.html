@@ -1,0 +1,20 @@
+---
+layout: default
+title: Now Reading
+---
+
+<div class="row-fluid marketing">
+  <h1>Books</h1>
+  <p>A list of books I've read, with some short reviews. Non-exhaustive and infrequently updated</p>
+  <hr>
+  <ul class="row6">
+    {% for post in site.posts %}
+    {% if post.layout == 'book' %}
+    <li> <a href="{{ post.url }}">{{ post.title }}</a>
+      <br>
+      <p>{{ post.content }} </p>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
