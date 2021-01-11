@@ -1,4 +1,5 @@
 name: hunterowens.net
 highlighter: rouge 
 markdown: kramdown
-
+plugins: 
+  - jekyll-feed
