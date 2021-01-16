@@ -17,7 +17,7 @@ The second stack, is the developer financing stack. That is, how do affordable h
 
 Sidebar: Here's what the LITHC funded query tool looks like. Most other lookup tools and forms used by housing developers (the customer!) are approximately this quality. 
 
-![A Screenshot of the LITHC Query Tool](../img/lithc.png)
+![A Screenshot of the LITHC Query Tool](/img/lihtc.png)
 
 Back in June 2019, a coalition of the main affordable housing developers in the City of Los Angeles, _The Supportive Housing Alliance_, released an open letter to City Leaders on how to breakdown the barriers in developing affordable housing. I was unable to locate a copy online so I've posted it [here](../papers/ltr_fast_tracking.pdf) (you should read the whole thing, it's great). If you accept the conclusion that time spent in [permitting / development rule raises the cost of the housing](https://ternercenter.berkeley.edu/research-and-policy/development-costs-lihtc-9-percent-california/), reducing administrative barriers to permanent supportive housing is one of the easiest ways to increase the amount of money available and the amount of PSH built!  
 
@@ -38,11 +38,13 @@ Improve the process for providing City-owned land as supportive housing developm
 ...
 Reduce or eliminate multiple approvals by the City Council and the Mayor.  For example, there are currently seven (7) Council approvals needed to complete just the site control and financing for each site, not including any entitlements approvals.  
 ```
-In the first section, we talked about the need to digitize the process and do business process reform. The next step once that process is digitized? Make it efficient. In a future where the City actually built _systems_ to manage our work, it would be able possible to accurately track how many project are effectively pocket veto'd by council approval. 
+In the first section, we talked about the need to digitize the process and do business process reform. The next step once that process is digitized? Make it efficient. In a future where the City actually built _systems_ to manage our work, it would be able possible to accurately track how many projects are effectively pocket vetoed by withheld council approval. 
 
 Additionally, we turn back to the lack of being able to move concurrently. Every developer in this list has to develop it's own workflow, way of tracking project funding, and property release, and that's before we even get to the broken entitlement process. Currently, the broken process empower behind the scenes action, since it is not transparent at all which of __7__ approvals have been obtained and where the hold up is. Embracing a systematic process would require us to move "informal" approvals into formal ones, taking power away from Councilmember discretion and ideally, bringing as much housing to Angelenos as quickly as possible. 
 
 Finally, the City's bifurcated IT Structure means that there is a lack of a centralized asset management system, and futhermore, no incentive to implement or budget for one. This means, as has been heavily documented, getting merely a list of City owned properties was a massive list? A list of properties with the requisite metadata (entitlements, trusts, obligations, etc? Near impossible). 
+
+They continue with the recommendations: 
 
 ```
 Shorten the City loan and agreement execution processes, as well as disbursements, by:
@@ -56,6 +58,7 @@ The kvetching here, about the inability to get funding within a reasonable timel
 
 Again, a team of user researchers and a customer centric process reform is required here - along with a deep, citywide integration into better payments services and banking. If Airbnb can pay thousands of hosts within 24 hours, why can't the City track and release payments via wire transfer, a technology invented in [1872](https://en.wikipedia.org/wiki/Wire_transfer).
 
+The final recommendation: 
 ```
 Ensure streamlined processes that result in more efficient approvals throughout the entire development process.  For example:
 ...
