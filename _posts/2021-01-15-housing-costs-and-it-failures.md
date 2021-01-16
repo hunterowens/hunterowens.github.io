@@ -19,7 +19,7 @@ Sidebar: Here's what the LITHC funded query tool looks like. Most other lookup t
 
 ![A Screenshot of the LITHC Query Tool](/img/lihtc.png)
 
-Back in June 2019, a coalition of the main affordable housing developers in the City of Los Angeles, _The Supportive Housing Alliance_, released an open letter to City Leaders on how to breakdown the barriers in developing affordable housing. I was unable to locate a copy online so I've posted it [here](../papers/ltr_fast_tracking.pdf) (you should read the whole thing, it's great). If you accept the conclusion that time spent in [permitting / development rule raises the cost of the housing](https://ternercenter.berkeley.edu/research-and-policy/development-costs-lihtc-9-percent-california/), reducing administrative barriers to permanent supportive housing is one of the easiest ways to increase the amount of money available and the amount of PSH built!  
+Back in June 2019, a coalition of the main affordable housing developers in the City of Los Angeles, _The Supportive Housing Alliance_, released an open letter to City Leaders on how to breakdown the barriers in developing affordable housing. I was unable to locate a copy online so I've posted it [here](/papers/ltr_fast_tracking.pdf) (you should read the whole thing, it's great). If you accept the conclusion that time spent in [permitting / development rule raises the cost of the housing](https://ternercenter.berkeley.edu/research-and-policy/development-costs-lihtc-9-percent-california/), reducing administrative barriers to permanent supportive housing is one of the easiest ways to increase the amount of money available and the amount of PSH built!  
 
 Let's look at the first recommendation from the letter: 
 
